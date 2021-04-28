@@ -43,6 +43,7 @@ let num2 = 1
 console.log(num1+num2)
 // will print 11
 console.log(num2+1)
+// will print 2
 
 /* Data types */
 const people = ['boy1', 'boy2', 'boy3'];
