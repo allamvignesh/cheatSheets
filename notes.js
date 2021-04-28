@@ -141,6 +141,7 @@ console.log(now);
 // operators [<, <=, >, >=, ==, ===, !=, !==]
 // '42' == 42 --> true; does data conversion
 // '42' === 42 --> false; also checks for data type
+// variables having empty are false. (ex. if (x) console.log('not empty'))
 
 let status = 200;
 
@@ -159,5 +160,26 @@ else console.log('Unknown status');
 
 // or Ternary- instant
 const message = (status === 200) ? 'OK' : 'ERROR';
-console.log(message)
+console.log(message);
 
+/* combining conditions
+and &
+or |
+shortcut and &&
+shortcut or || */
+
+/* Switch */
+
+status = 200;
+switch (status) {
+    case 200:
+        console.log('OK!');
+        break;
+    case 400:
+    case 500:
+        console.log('Error');
+        break
+    default:
+        console.log('Unknown value');
+        break;
+}
