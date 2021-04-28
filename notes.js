@@ -27,10 +27,10 @@ const c = 10
 // can not be changed
 // similar to let
 
-/* usage */
-// const - as often as possible
-// let - in loops
-// var - rarely
+/* usage
+const - as often as possible
+let - in loops
+var - rarely */
 
 /* strings */
 let str1 = 'Hello';
@@ -135,3 +135,4 @@ now.setMinutes(24);
 now.setSeconds(46);
 
 console.log(now);
+
