@@ -1,3 +1,5 @@
+//Learning javaScript from youtube:Microsoft Developers
+
 const place = 'World';
 const greeting = 'Hello'
 
@@ -143,11 +145,11 @@ console.log(now);
 // '42' === 42 --> false; also checks for data type
 // variables having empty are false. (ex. if (x) console.log('not empty'))
 
-let status = 200;
+let status = 500;
 
 if (status === 200) {
     console.log('OK!');
-} else if (status === 400) {
+} else if (status === 400 || status === 500) {
     console.log('Error!');
 } else {
     console.log('Unkown status');
@@ -183,3 +185,12 @@ switch (status) {
         console.log('Unknown value');
         break;
 }
+
+/* arrow function */
+
+function sum (a,b) {
+    return a + b
+}
+// or
+let sum2 = (a,b) => a + b
+console.log(sum2(1,2))
