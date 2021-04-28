@@ -137,3 +137,27 @@ now.setSeconds(46);
 
 console.log(now);
 
+/* Conditional Statements */
+// operators [<, <=, >, >=, ==, ===, !=, !==]
+// '42' == 42 --> true; does data conversion
+// '42' === 42 --> false; also checks for data type
+
+let status = 200;
+
+if (status === 200) {
+    console.log('OK!');
+} else if (status === 400) {
+    console.log('Error!');
+} else {
+    console.log('Unkown status');
+}
+
+// or if only one line for block in condition
+if (status === 200) console.log('OK!');
+else if (status === 400) console.log('Error!');
+else console.log('Unknown status');
+
+// or Ternary- instant
+const message = (status === 200) ? 'OK' : 'ERROR';
+console.log(message)
+
