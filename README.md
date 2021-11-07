@@ -15,7 +15,7 @@ console.log(`${greeting} ${place}`);
 // this s single line comment
 
 /*
-this is multiline comment     ctrl + /
+this is multiline comment
 */
 
 # Declaring vairable
