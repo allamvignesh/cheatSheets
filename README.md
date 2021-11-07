@@ -1,23 +1,24 @@
 # learningnodejs
 
-//Learning javaScript from youtube:Microsoft Developers
+# Learning javaScript from youtube:Microsoft Developers
 
 const place = 'World';
 const greeting = 'Hello'
 
-// console.log is similar to print in python
+# Console.log is similar to print in python
 
 console.log('%s %s', greeting, place);
 console.log(greeting, place);
 console.log(`${greeting} ${place}`);
 
+# Comments
 // this s single line comment
 
 /*
 this is multiline comment     ctrl + /
 */
 
-// declaring vairable
+# Declaring vairable
 
 var a = 10
 // This is available before declaring
@@ -31,17 +32,17 @@ const c = 10
 // can not be changed
 // similar to let
 
-/* usage
+# Usage
 const - as often as possible
 let - in loops
-var - rarely */
+var - rarely
 
-/* strings */
+# Strings
 let str1 = 'Hello';
 let str2 = 'World';
 console.log(str1+' '+str2);
 
-/* warning */
+# Warnings
 let num1 = '1';
 let num2 = 1
 console.log(num1+num2)
@@ -49,7 +50,7 @@ console.log(num1+num2)
 console.log(num2+1)
 // will print 2
 
-/* Data types */
+# Data types
 const people = ['boy1', 'boy2', 'boy3'];
 const one = new Number(1);
 const str = new String("Hello World");
@@ -78,7 +79,7 @@ console.log(bol instanceof Boolean);
 console.log(person instanceof Object);
 console.log(sayHello instanceof Function);
 
-/* Math Operations */
+# Math Operations
 num1 = 100;
 console.log(num1 + 25);
 console.log(num1 - 100);
@@ -92,7 +93,7 @@ console.log(--num1);
 console.log(Math.PI);
 console.log(Math.sqrt(100));
 
-/* Data conversion */
+# Data conversion
 
 console.log(parseInt('100'));
 console.log(parseInt('150'));
@@ -109,7 +110,7 @@ console.log(parseInt(`${1+1}`));
 
 console.log(num1.toString());
 
-/* Error Handling */
+# Error Handling
 // throw execption similar to raise in python
 
 function logError(theException) {
@@ -125,7 +126,7 @@ try {
     console.log('always run this');
 }
 
-/* Dates */
+# Dates
 // time is a javaScript object
 // month starts from 0 for giving in as parameteres
 
@@ -141,7 +142,7 @@ now.setSeconds(46);
 
 console.log(now);
 
-/* Conditional Statements */
+# Conditional Statements
 // operators [<, <=, >, >=, ==, ===, !=, !==]
 // '42' == 42 --> true; does data conversion
 // '42' === 42 --> false; also checks for data type
@@ -166,13 +167,13 @@ else console.log('Unknown status');
 const message = (status === 200) ? 'OK' : 'ERROR';
 console.log(message);
 
-/* combining conditions
+# Combining conditions
 and &
 or |
 shortcut and &&
-shortcut or || */
+shortcut or ||
 
-/* Switch */
+# Switch
 
 status = 200;
 switch (status) {
@@ -188,7 +189,7 @@ switch (status) {
         break;
 }
 
-/* arrow function */
+# Arrow function
 
 function sum (a,b) {
     return a + b
